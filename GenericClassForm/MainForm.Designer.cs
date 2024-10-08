@@ -34,29 +34,27 @@
             // 
             // btnIntSum
             // 
-            btnIntSum.Location = new Point(69, 97);
+            btnIntSum.Location = new Point(61, 96);
             btnIntSum.Name = "btnIntSum";
-            btnIntSum.Size = new Size(204, 40);
+            btnIntSum.Size = new Size(270, 72);
             btnIntSum.TabIndex = 0;
             btnIntSum.Text = "Integer Sum";
             btnIntSum.UseVisualStyleBackColor = true;
-            btnIntSum.Click += btnIntSum_Click;
             // 
             // btnDecimalSubtract
             // 
-            btnDecimalSubtract.Location = new Point(396, 97);
+            btnDecimalSubtract.Location = new Point(452, 96);
             btnDecimalSubtract.Name = "btnDecimalSubtract";
-            btnDecimalSubtract.Size = new Size(204, 40);
+            btnDecimalSubtract.Size = new Size(270, 72);
             btnDecimalSubtract.TabIndex = 1;
             btnDecimalSubtract.Text = "Decimal Subtract";
             btnDecimalSubtract.UseVisualStyleBackColor = true;
-            btnDecimalSubtract.Click += btnDecimalSubtract_Click;
             // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(12F, 30F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(681, 214);
+            ClientSize = new Size(800, 261);
             Controls.Add(btnDecimalSubtract);
             Controls.Add(btnIntSum);
             Name = "MainForm";

@@ -36,21 +36,21 @@
             // 
             // txtInput1
             // 
-            txtInput1.Location = new Point(32, 52);
+            txtInput1.Location = new Point(41, 59);
             txtInput1.Name = "txtInput1";
             txtInput1.Size = new Size(175, 35);
             txtInput1.TabIndex = 0;
             // 
             // txtInput2
             // 
-            txtInput2.Location = new Point(235, 52);
+            txtInput2.Location = new Point(299, 59);
             txtInput2.Name = "txtInput2";
             txtInput2.Size = new Size(175, 35);
             txtInput2.TabIndex = 1;
             // 
             // btnCalculate
             // 
-            btnCalculate.Location = new Point(460, 50);
+            btnCalculate.Location = new Point(578, 57);
             btnCalculate.Name = "btnCalculate";
             btnCalculate.Size = new Size(131, 40);
             btnCalculate.TabIndex = 2;
@@ -60,7 +60,7 @@
             // lblResult
             // 
             lblResult.AutoSize = true;
-            lblResult.Location = new Point(32, 115);
+            lblResult.Location = new Point(41, 137);
             lblResult.Name = "lblResult";
             lblResult.Size = new Size(68, 30);
             lblResult.TabIndex = 3;
@@ -70,7 +70,7 @@
             // 
             AutoScaleDimensions = new SizeF(12F, 30F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(644, 197);
+            ClientSize = new Size(749, 218);
             Controls.Add(lblResult);
             Controls.Add(btnCalculate);
             Controls.Add(txtInput2);
