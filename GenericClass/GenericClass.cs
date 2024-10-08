@@ -1,17 +1,17 @@
 ﻿// Definición de la clase genérica
 public class GenericClass<T>
 {
-    private T genericMember;
-    // Constructor que inicializa el valor genérico
+    private readonly T _value;
+
+    //Construtor que inicializa el valor genérico
     public GenericClass(T value)
     {
-       genericMember = value;
+        _value = value;
     }
-
-    // Método que devuelve el valor del parámetro
+    // Método que devuelve el valor genérico
     public T GetValue()
     {
-        return genericMember;
+        return _value;
     }
 }
 

@@ -10,7 +10,6 @@ using System.Windows.Forms;
 
 namespace GenericClassForm
 {
-    // Clase principal para elegir el tipo de operación y tipo de dato
     public partial class MainForm : Form
     {
         public MainForm()
@@ -20,13 +19,13 @@ namespace GenericClassForm
 
         private void btnIntSum_Click(object sender, EventArgs e)
         {
-            var form = new MathOperation();
+            var form = new MathOperationForm();
             form.ShowDialog();
         }
 
         private void btnDecimalSubtract_Click(object sender, EventArgs e)
         {
-            var form = new MathOperation();
+            var form = new MathOperationForm();
             form.ShowDialog();
         }
     }
