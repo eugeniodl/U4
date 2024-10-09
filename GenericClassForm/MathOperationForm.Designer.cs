@@ -59,6 +59,7 @@
             btnCalculate.TabIndex = 2;
             btnCalculate.Text = "Calculate";
             btnCalculate.UseVisualStyleBackColor = true;
+            btnCalculate.Click += btnCalculate_Click;
             // 
             // lblResult
             // 
@@ -66,11 +67,11 @@
             lblResult.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             lblResult.Location = new Point(47, 150);
             lblResult.Name = "lblResult";
-            lblResult.Size = new Size(91, 38);
+            lblResult.Size = new Size(106, 38);
             lblResult.TabIndex = 3;
-            lblResult.Text = "label1";
+            lblResult.Text = "Result: ";
             // 
-            // MathOperation
+            // MathOperationForm
             // 
             AutoScaleDimensions = new SizeF(12F, 30F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -79,7 +80,7 @@
             Controls.Add(btnCalculate);
             Controls.Add(txtInput2);
             Controls.Add(txtInput1);
-            Name = "MathOperation";
+            Name = "MathOperationForm";
             Text = "Generic Math Operation";
             ResumeLayout(false);
             PerformLayout();
