@@ -1,6 +1,6 @@
 ﻿namespace GenericClassForm
 {
-    partial class MathOperation
+    partial class MathOperationForm
     {
         /// <summary>
         /// Required designer variable.
@@ -36,46 +36,52 @@
             // 
             // txtInput1
             // 
-            txtInput1.Location = new Point(32, 52);
+            txtInput1.Location = new Point(19, 26);
+            txtInput1.Margin = new Padding(2);
             txtInput1.Name = "txtInput1";
-            txtInput1.Size = new Size(175, 35);
+            txtInput1.Size = new Size(104, 23);
             txtInput1.TabIndex = 0;
             // 
             // txtInput2
             // 
-            txtInput2.Location = new Point(235, 52);
+            txtInput2.Location = new Point(137, 26);
+            txtInput2.Margin = new Padding(2);
             txtInput2.Name = "txtInput2";
-            txtInput2.Size = new Size(175, 35);
+            txtInput2.Size = new Size(104, 23);
             txtInput2.TabIndex = 1;
             // 
             // btnCalculate
             // 
-            btnCalculate.Location = new Point(460, 50);
+            btnCalculate.Location = new Point(268, 25);
+            btnCalculate.Margin = new Padding(2);
             btnCalculate.Name = "btnCalculate";
-            btnCalculate.Size = new Size(131, 40);
+            btnCalculate.Size = new Size(76, 24);
             btnCalculate.TabIndex = 2;
             btnCalculate.Text = "Calculate";
             btnCalculate.UseVisualStyleBackColor = true;
+            btnCalculate.Click += btnCalculate_Click;
             // 
             // lblResult
             // 
             lblResult.AutoSize = true;
-            lblResult.Location = new Point(32, 115);
+            lblResult.Location = new Point(19, 58);
+            lblResult.Margin = new Padding(2, 0, 2, 0);
             lblResult.Name = "lblResult";
-            lblResult.Size = new Size(68, 30);
+            lblResult.Size = new Size(45, 15);
             lblResult.TabIndex = 3;
-            lblResult.Text = "label1";
+            lblResult.Text = "Result: ";
             // 
-            // MathOperation
+            // MathOperationForm
             // 
-            AutoScaleDimensions = new SizeF(12F, 30F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(644, 197);
+            ClientSize = new Size(376, 98);
             Controls.Add(lblResult);
             Controls.Add(btnCalculate);
             Controls.Add(txtInput2);
             Controls.Add(txtInput1);
-            Name = "MathOperation";
+            Margin = new Padding(2);
+            Name = "MathOperationForm";
             Text = "Generic Math Operation";
             ResumeLayout(false);
             PerformLayout();

@@ -20,14 +20,16 @@ namespace GenericClassForm
 
         private void btnIntSum_Click(object sender, EventArgs e)
         {
-            var form = new MathOperation();
+            var mathOperationHandler = new MathOperationHandler();
+            mathOperationHandler.SetOperation(new Addition<int>());
+            var form = new MathOperationForm(mathOperationHandler);
             form.ShowDialog();
         }
 
         private void btnDecimalSubtract_Click(object sender, EventArgs e)
         {
-            var form = new MathOperation();
-            form.ShowDialog();
+            //var form = new MathOperationForm();
+            //form.ShowDialog();
         }
     }
 }
