@@ -25,5 +25,13 @@ namespace GenericClassForm
             var form = new MathOperationForm(mathOperationHandler);
             form.ShowDialog();
         }
+
+        private void btnDecimalSubtract_Click(object sender, EventArgs e)
+        {
+            var mathOperationHandler = new MathOperationHandler();
+            mathOperationHandler.SetOperation(new Subtraction<decimal>());
+            var form = new MathOperationForm(mathOperationHandler);
+            form.ShowDialog();
+        }
     }
 }
