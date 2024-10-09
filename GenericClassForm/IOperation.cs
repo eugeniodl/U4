@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GenericClassForm
 {
-    internal interface IOperation<T>
+    public interface IOperation<T>
     {
         T Operate(T a, T b);
     }
