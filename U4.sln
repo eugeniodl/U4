@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericClass", "GenericClass\GenericClass.csproj", "{0FFF02CC-3FB4-45D9-B6B2-8EA54DF0A9E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericClass", "GenericClass\GenericClass.csproj", "{0FFF02CC-3FB4-45D9-B6B2-8EA54DF0A9E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericClassForm", "GenericClassForm\GenericClassForm.csproj", "{4308CD22-9684-4A9E-94D2-9DEF7EA15B0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericClassForm", "GenericClassForm\GenericClassForm.csproj", "{4308CD22-9684-4A9E-94D2-9DEF7EA15B0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericComparisonApp", "GenericComparisonApp\GenericComparisonApp.csproj", "{B551945A-31D0-44CB-9A7A-F8B844511546}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{4308CD22-9684-4A9E-94D2-9DEF7EA15B0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4308CD22-9684-4A9E-94D2-9DEF7EA15B0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4308CD22-9684-4A9E-94D2-9DEF7EA15B0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B551945A-31D0-44CB-9A7A-F8B844511546}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B551945A-31D0-44CB-9A7A-F8B844511546}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B551945A-31D0-44CB-9A7A-F8B844511546}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B551945A-31D0-44CB-9A7A-F8B844511546}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
