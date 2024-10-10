@@ -28,8 +28,10 @@ namespace GenericClassForm
 
         private void btnDecimalSubtract_Click(object sender, EventArgs e)
         {
-            //var form = new MathOperationForm();
-            //form.ShowDialog();
+            var mathOperationHandler = new MathOperationHandler();
+            mathOperationHandler.SetOperation(new Subtraction<decimal>());
+            var form = new MathOperationForm(mathOperationHandler);
+            form.ShowDialog();
         }
     }
 }
