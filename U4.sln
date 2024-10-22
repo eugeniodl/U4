@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploColeccionesNoGeneric
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploColeccionesGenericas", "EjemploColeccionesGenericas\EjemploColeccionesGenericas.csproj", "{C5B2F469-CE01-47CD-B69F-5756895B2F04}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploColeccionesConcurrentes", "EjemploColeccionesConcurrentes\EjemploColeccionesConcurrentes.csproj", "{C977552E-772F-4621-B9F4-5F50D19E4851}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{C5B2F469-CE01-47CD-B69F-5756895B2F04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5B2F469-CE01-47CD-B69F-5756895B2F04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5B2F469-CE01-47CD-B69F-5756895B2F04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C977552E-772F-4621-B9F4-5F50D19E4851}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C977552E-772F-4621-B9F4-5F50D19E4851}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C977552E-772F-4621-B9F4-5F50D19E4851}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C977552E-772F-4621-B9F4-5F50D19E4851}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
