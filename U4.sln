@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericComparisonApp", "Gen
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploColeccionesNoGenericas", "EjemploColeccionesNoGenericas\EjemploColeccionesNoGenericas.csproj", "{AA3C0A7C-7584-49F5-B0A5-682DABD33998}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploColeccionesGenericas", "EjemploColeccionesGenericas\EjemploColeccionesGenericas.csproj", "{C5B2F469-CE01-47CD-B69F-5756895B2F04}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{AA3C0A7C-7584-49F5-B0A5-682DABD33998}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA3C0A7C-7584-49F5-B0A5-682DABD33998}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA3C0A7C-7584-49F5-B0A5-682DABD33998}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5B2F469-CE01-47CD-B69F-5756895B2F04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5B2F469-CE01-47CD-B69F-5756895B2F04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5B2F469-CE01-47CD-B69F-5756895B2F04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5B2F469-CE01-47CD-B69F-5756895B2F04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
