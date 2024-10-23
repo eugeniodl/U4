@@ -21,7 +21,7 @@ foreach (var estudiante in estudiantesAprobados)
 {
     Console.WriteLine($"{estudiante.Nombre} - Nota: {estudiante.Nota}");
 }
-
+Console.WriteLine();
 // Filtrar los estudiantes mayores a 20 años
 var mayoresDe20 = estudiantes
     .Where(e => e.Edad > 20).ToList();
@@ -29,7 +29,7 @@ var mayoresDe20 = estudiantes
 Console.WriteLine("Estudiantes mayores a 20 años");
 foreach (var e in mayoresDe20)
     Console.WriteLine(e);
-
+Console.WriteLine();
 // Filtrar los estudiantes cuyo nombre comienza con 'L'
 var estudiantesConL = estudiantes
     .Where(e => e.Nombre.StartsWith("L")).ToList();
@@ -39,7 +39,7 @@ foreach (var item in estudiantesConL)
 {
     Console.WriteLine(item);
 }
-
+Console.WriteLine();
 // Obtener el estudiante más joven
 var estudianteMasJoven = estudiantes.OrderBy(e => e.Edad).FirstOrDefault();
 
@@ -47,6 +47,7 @@ Console.WriteLine($"Estudiante más joven: {estudianteMasJoven}");
 
 // Obtener el promedio de las notas
 var promedioNotas = estudiantes.Average(e => e.Nota);
+Console.WriteLine();
 Console.WriteLine($"Promedio de las notas: {promedioNotas}");
 
 // Filtrar estudiantes con notas superiores al promedio
@@ -61,6 +62,14 @@ var nombresUnicos = estudiantes.Select(e => e.Nombre).Distinct().ToList();
 
 // Filtrar estudiantes con edad impar
 // Filtrar estudiantes que son mayores de 18 pero menores de 23
-// Filtrar estudiantes cuyo nombre tiene más de  letras
+// Filtrar estudiantes cuyo nombre tiene más de 3 letras
+var estudiantesNombresLargos = estudiantes
+                               .Where(e => e.Nombre.Length > 3).ToList();
+Console.WriteLine("Estudiantes cuyo nombre tiene más de 3 letras");
+foreach (var item in estudiantesNombresLargos)
+{
+    Console.WriteLine(item);
+}
+Console.WriteLine();
 // Contar el número de estudiantes
 // Obtener el estudiante con la nota más alta
