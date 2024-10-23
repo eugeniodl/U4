@@ -147,14 +147,109 @@ if(!abrirCon.ContainsKey("doc"))
     Console.WriteLine("La clave \"doc\" no se encuentra.");
 }
 
-/************************************************************************/
+// Crear una nueva SortedList
+SortedList miSL = new SortedList();
 
-void ImprimirValores(IEnumerable miColeccion)
+// Agregar pares clave-valor
+miSL.Add(2, "Dos");
+miSL.Add(1, "Uno");
+miSL.Add(3, "Tres");
+
+// Muestra las propiedades y valores de la SortedList.
+Console.WriteLine("miSL");
+Console.WriteLine($"\tCantidad:\n{miSL.Count}");
+Console.WriteLine($"\tCapacidad:\n{miSL.Capacity}");
+Console.WriteLine("\tClaves y Valores:");
+ImprimirClavesYValores(miSL);
+
+void ImprimirClavesYValores(SortedList miLista)
 {
-	// Recorrer y mostrar los elementos
-	foreach (var item in miColeccion)
-	{
-        Console.WriteLine("\t{0}", item);
+    Console.WriteLine("\t-CLAVE-\t-VALOR-");
+    for (int i = 0; i < miLista.Count; i++)
+    {
+        Console.WriteLine($"\t{miLista.GetKey(i)}\t{miLista.GetByIndex(i)}");
     }
     Console.WriteLine();
+}
+
+// Recorrer y mostrar las claves y valores, que estarán ordenados por la clave
+foreach (DictionaryEntry entry in miSL)
+{
+    Console.WriteLine($"Clave: {entry.Key}, Valor: {entry.Value}");
+}
+
+/************************************************************************/
+
+// Crear e inicializar varios BitArrays
+BitArray miBA1 = new BitArray(5);
+
+BitArray miBA2 = new BitArray(5, false);
+
+byte[] misBytes = new byte[5] { 1, 2, 3, 4, 5};
+BitArray miBA3 = new BitArray(misBytes);
+
+bool[] misBools = new bool[5] { true, false, true, true, false };
+BitArray miBA4 = new BitArray(misBools);
+
+int[] misInts = new int[5] { 6, 7, 8, 9, 10 };
+BitArray miBA5 = new BitArray(misInts);
+
+// Muestra las propiedades y valores de los BitArrays.
+Console.WriteLine("miBA1");
+Console.WriteLine("\tCantidad:\t{0}", miBA1.Count);
+Console.WriteLine("\tLongitud:\t{0}", miBA1.Length);
+Console.WriteLine("\tValores:");
+ImprimirValores(miBA1, 8);
+
+Console.WriteLine("miBA2");
+Console.WriteLine("\tCantidad:\t{0}", miBA2.Count);
+Console.WriteLine("\tLongitud:\t{0}", miBA2.Length);
+Console.WriteLine("\tValores:");
+ImprimirValores(miBA2, 8);
+
+Console.WriteLine("miBA3");
+Console.WriteLine("\tCantidad:\t{0}", miBA3.Count);
+Console.WriteLine("\tLongitud:\t{0}", miBA3.Length);
+Console.WriteLine("\tValores:");
+ImprimirValores(miBA3, 8);
+
+Console.WriteLine("miBA4");
+Console.WriteLine("\tCantidad:\t{0}", miBA4.Count);
+Console.WriteLine("\tLongitud:\t{0}", miBA4.Length);
+Console.WriteLine("\tValores:");
+ImprimirValores(miBA4, 8);
+
+Console.WriteLine("miBA5");
+Console.WriteLine("\tCantidad:\t{0}", miBA5.Count);
+Console.WriteLine("\tLongitud:\t{0}", miBA5.Length);
+Console.WriteLine("\tValores:");
+ImprimirValores(miBA5, 8);
+
+/************************************************************************/
+
+void ImprimirValores(IEnumerable miColeccion, int? ancho = null)
+{
+    if(ancho.HasValue) // Si se proporciona un ancho
+    {
+        int i = ancho.Value;
+        foreach (var item in miColeccion)
+        {
+            if(i <= 0)
+            {
+                i = ancho.Value;
+                Console.WriteLine();
+            }
+            i--;
+            Console.WriteLine("{0,8}", item); // Imprime con formato de ancho
+        }
+    }
+    else
+    {
+        // Recorrer y mostrar los elementos
+        foreach (var item in miColeccion)
+        {
+            Console.WriteLine("\t{0}", item);
+        }
+    }
+    Console.WriteLine(); // Línea adicional al final
 }
