@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericComparisonApp", "Gen
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploColeccionesNoGenericas", "EjemploColeccionesNoGenericas\EjemploColeccionesNoGenericas.csproj", "{AA3C0A7C-7584-49F5-B0A5-682DABD33998}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploColeccionesGenericas", "EjemploColeccionesGenericas\EjemploColeccionesGenericas.csproj", "{C5B2F469-CE01-47CD-B69F-5756895B2F04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploColeccionesGenericas", "EjemploColeccionesGenericas\EjemploColeccionesGenericas.csproj", "{C5B2F469-CE01-47CD-B69F-5756895B2F04}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploColeccionesConcurrentes", "EjemploColeccionesConcurrentes\EjemploColeccionesConcurrentes.csproj", "{C977552E-772F-4621-B9F4-5F50D19E4851}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestionElementosApp", "GestionElementosApp\GestionElementosApp.csproj", "{0EBAA05A-1EDA-4B79-8208-83C42391D6B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{C977552E-772F-4621-B9F4-5F50D19E4851}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C977552E-772F-4621-B9F4-5F50D19E4851}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C977552E-772F-4621-B9F4-5F50D19E4851}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EBAA05A-1EDA-4B79-8208-83C42391D6B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EBAA05A-1EDA-4B79-8208-83C42391D6B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EBAA05A-1EDA-4B79-8208-83C42391D6B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EBAA05A-1EDA-4B79-8208-83C42391D6B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
