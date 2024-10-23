@@ -11,11 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericComparisonApp", "Gen
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploColeccionesNoGenericas", "EjemploColeccionesNoGenericas\EjemploColeccionesNoGenericas.csproj", "{BD32EBBF-3EE3-42F1-ADFA-CB332150AF24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploColeccionesGenericas", "EjemploColeccionesGenericas\EjemploColeccionesGenericas.csproj", "{4D057DC6-896A-4EF8-B00B-82A61AE1CF01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploColeccionesGenericas", "EjemploColeccionesGenericas\EjemploColeccionesGenericas.csproj", "{4D057DC6-896A-4EF8-B00B-82A61AE1CF01}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploColeccionesConcurrentes", "EjemploColeccionesConcurrentes\EjemploColeccionesConcurrentes.csproj", "{9C8076C8-46B8-4E19-BD2C-CCD189002988}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestionElementosApp", "GestionElementosApp\GestionElementosApp.csproj", "{6F0F68EE-FF14-46AE-82CF-8E1791AFB496}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestionElementosApp", "GestionElementosApp\GestionElementosApp.csproj", "{DB350895-E882-49FB-BD09-A8D3C7534AC6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,10 +47,10 @@ Global
 		{9C8076C8-46B8-4E19-BD2C-CCD189002988}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C8076C8-46B8-4E19-BD2C-CCD189002988}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C8076C8-46B8-4E19-BD2C-CCD189002988}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6F0F68EE-FF14-46AE-82CF-8E1791AFB496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6F0F68EE-FF14-46AE-82CF-8E1791AFB496}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6F0F68EE-FF14-46AE-82CF-8E1791AFB496}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6F0F68EE-FF14-46AE-82CF-8E1791AFB496}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB350895-E882-49FB-BD09-A8D3C7534AC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB350895-E882-49FB-BD09-A8D3C7534AC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB350895-E882-49FB-BD09-A8D3C7534AC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB350895-E882-49FB-BD09-A8D3C7534AC6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
