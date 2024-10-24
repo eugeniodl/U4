@@ -48,43 +48,20 @@ var estudiantesSuperioresAlPromedio = estudiantes
 var estudiantesConL = estudiantes.Where(e => e.Nombre.StartsWith("L")).ToList();
 
 // Filtrar estudiantes cuyo nombre tiene más de 3 letras
+var estudiantesNombresLargos = estudiantes
+    .Where(e => e.Nombre.Length > 3);
+
 // Filtrar estudiantes con edad impar
+var estudiantesEdadImpar = estudiantes
+    .Where(e => e.Edad % 2 != 0);
+
 // Filtrar estudiantes con nombre que contiene la letra 'a'
+var estudiantesConA = estudiantes
+    .Where(e => e.Nombre.Contains("a"));
+
 // Filtrar estudiantes que son mayores de 18 pero menores de 23
+var estudiantesEntre18y23 = estudiantes
+    .Where(e => e.Edad > 18 && e.Edad < 23);
+
 // Contar el número de estudiantes
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+var totalEstudiantes = estudiantes.Count();
