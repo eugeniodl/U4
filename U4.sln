@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploColeccionesConcurren
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestionElementosApp", "GestionElementosApp\GestionElementosApp.csproj", "{0EBAA05A-1EDA-4B79-8208-83C42391D6B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploLINQ", "EjemploLINQ\EjemploLINQ.csproj", "{C5BBF621-ED87-4A54-B7EF-18CFD3FE9412}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploLINQ", "EjemploLINQ\EjemploLINQ.csproj", "{C5BBF621-ED87-4A54-B7EF-18CFD3FE9412}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgramaAcademicoApp", "ProgramaAcademicoApp\ProgramaAcademicoApp.csproj", "{70C43416-52E5-4887-A2DB-B2322D03B6B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{C5BBF621-ED87-4A54-B7EF-18CFD3FE9412}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5BBF621-ED87-4A54-B7EF-18CFD3FE9412}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5BBF621-ED87-4A54-B7EF-18CFD3FE9412}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70C43416-52E5-4887-A2DB-B2322D03B6B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70C43416-52E5-4887-A2DB-B2322D03B6B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70C43416-52E5-4887-A2DB-B2322D03B6B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70C43416-52E5-4887-A2DB-B2322D03B6B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
