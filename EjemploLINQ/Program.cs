@@ -1,6 +1,4 @@
 ﻿// Crear una lista de estudantes
-using static System.Runtime.InteropServices.JavaScript.JSType;
-
 List<Estudiante> estudiantes = new List<Estudiante>
 {
     new Estudiante{ Nombre = "Ana", Edad = 22, Nota = 8.5 },
@@ -61,7 +59,13 @@ var estudiantesConA = estudiantes.Where(e => e.Nombre.Contains("a")).ToList();
 var nombresUnicos = estudiantes.Select(e => e.Nombre).Distinct().ToList();
 
 // Filtrar estudiantes con edad impar
+var estudiantesEdadImpar = estudiantes
+    .Where(e => e.Edad % 2 != 0).ToList();
+
 // Filtrar estudiantes que son mayores de 18 pero menores de 23
+var estudiantesEntre18y23 = estudiantes
+    .Where(e => e.Edad > 18 && e.Edad < 23).ToList();
+
 // Filtrar estudiantes cuyo nombre tiene más de 3 letras
 var estudiantesNombresLargos = estudiantes
                                .Where(e => e.Nombre.Length > 3).ToList();
@@ -71,5 +75,10 @@ foreach (var item in estudiantesNombresLargos)
     Console.WriteLine(item);
 }
 Console.WriteLine();
+
 // Contar el número de estudiantes
+var totalEstudiantes = estudiantes.Count();
+
 // Obtener el estudiante con la nota más alta
+var mejorEstudiante = estudiantes.OrderByDescending(e => e.Nota).FirstOrDefault();
+
